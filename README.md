@@ -82,7 +82,7 @@ To create a standalone executable:
 
 ```bash
 pip install pyinstaller
-pyinstaller --onefile --windowed --icon=icon.ico main.py
+pyinstaller --onefile --windowed main.py
 ```
 
 The executable will be created in the `dist` folder.
